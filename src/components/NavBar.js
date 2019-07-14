@@ -1,9 +1,10 @@
 import React from 'react';
+import "./navbar.css"
 
 const NavBar = () => {
     return ( 
        <header>
-           test
+           Dashboard
        </header>
      );
 }

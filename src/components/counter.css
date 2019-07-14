@@ -1,0 +1,22 @@
+.counter-container{
+
+    width:  15%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.counter-title{
+    font-size: 0.9em;
+    color:#9c9da1;
+    align-self: flex-end;
+}
+
+.counter-number{
+    margin-top: 1vh;
+    font-size: 1.3em;
+    align-self: flex-end;
+}
+
