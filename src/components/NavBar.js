@@ -6,6 +6,7 @@ const NavBar = () => {
     return (
         <>
             <header> Dashboard </header>
+            <div className="header-container">
             <div className="breadcumb-container">
                 <span>Home / Dashboard / Workplace</span>
             </div>
@@ -27,6 +28,7 @@ const NavBar = () => {
                     <div className="divider" />
                     <Counter props={{ title: "Project visits", number: "2,223" }} />
                 </div>
+            </div>
             </div>
         </>
     );

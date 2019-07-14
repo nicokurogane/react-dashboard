@@ -14,9 +14,13 @@ header{
     padding:  2vh 15vw; 
 }
 
+.header-container{
+    background-color: #ffffff;
+}
+
 .main-container{
-    padding-top: 3vh;
-    padding-bottom:4vw; 
+    padding-top: 2vh;
+    padding-bottom:2vh; 
     padding-left:15vw; 
     display: flex;
 }
