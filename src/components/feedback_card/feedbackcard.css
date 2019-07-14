@@ -1,0 +1,18 @@
+.feedback-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+    
+}
+
+.feedback-profile_img{
+    width: 3rem;
+    margin-right: 2vw;
+}
+
+
+.feedback-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

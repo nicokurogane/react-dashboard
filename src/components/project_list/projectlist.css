@@ -7,19 +7,19 @@ button {
 
 .projectlist-container{
     background-color: #ffffff;
-    padding: 2vh;
+
 }
 
 .projectlist-header-container{
     display: flex;
-    justify-content: space-between
+	justify-content: space-between;
+	padding:  2.5vh;
 }
 
 button.link {
-	font-family: "Verdana" sans-serif;
 	font-size: 1em;
 	text-align: left;
-	color: blue;
+	color: #00b8d4;
 	background: none;
 	margin: 0;
 	padding: 0;
