@@ -4,3 +4,17 @@
 body{
     background-color: #eeeeee;
 }
+
+.dashboard-container{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel{
+    margin-left: 15vw;
+}
+
+.right-panel{
+    margin-right: 15vw;
+}

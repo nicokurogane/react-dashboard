@@ -1,0 +1,25 @@
+.projectcard-container{
+    padding: 2vh;
+    border: 1px solid #eeeeee;
+}
+
+.project-description{
+    color:#bdbdbd;
+    font-size: 0.8em;
+}
+
+
+.project-status-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-time-status{
+    font-size: 0.7em;
+    color:#e0e0e0;
+}
+
+.project-subject{
+    font-size: 0.7em;
+    color:#bdbdbd;
+}
