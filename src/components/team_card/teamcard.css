@@ -1,0 +1,12 @@
+.team-card-container{
+    font-size: 0.75rem;
+    padding: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-logo{
+    width: 3vh;
+    margin-right: .7vw;
+}

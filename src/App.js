@@ -3,6 +3,7 @@ import NavBar from './components/navbar/NavBar';
 import ProjectList from './components/project_list/ProjectList';
 import FeedbackList from './components/feedback_list/FeedbackList';
 import GraphicCard from './components/graphic_card/GraphicCard';
+import TeamList from './components/team_list/TeamList';
 
 import './app.css';
 
@@ -18,6 +19,7 @@ function App() {
         </div>
         <div className="right-panel">
           < GraphicCard/>
+          <TeamList />
         </div>
       </div>
     </>

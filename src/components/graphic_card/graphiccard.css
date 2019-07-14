@@ -11,12 +11,13 @@
 }
 
 .radar-chart{
-    margin: 0 2.5vw;
+    width: 14.5vw;
+    margin:  2.5vw;
 }
 
 .chart-scores-container{
     padding: 1vw 0;
-    margin-top: 3vh;
+   /* margin-top: 3vh;*/
     display: flex;
     justify-content: space-around;
 }
