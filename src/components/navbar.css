@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -7,7 +8,7 @@ body{
 }
 
 header{
-    font-family: 'Roboto', sans-serif;
+
     background-color: #0b185e;
     color: #ffffff;
     padding:  2vh 15vw; 
@@ -20,14 +21,21 @@ header{
     display: flex;
 }
 
+.breadcumb-container{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left:15vw; 
+    font-size: 0.8rem;
+    color:#9c9da1;
+}
+
 .user-salute-container{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
 .profile-img{
-    width: 5.02rem;
+    width: 4rem;
     margin-right: 2vw;
 }
 
@@ -49,4 +57,5 @@ header{
 
 .user-background{
     font-size: 0.8em;
+    color:#9c9da1;
 }

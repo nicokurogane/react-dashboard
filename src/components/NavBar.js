@@ -6,7 +6,9 @@ const NavBar = () => {
     return (
         <>
             <header> Dashboard </header>
-            <span>ggggggg/ggggggggg</span>
+            <div className="breadcumb-container">
+                <span>Home / Dashboard / Workplace</span>
+            </div>
             <div className="main-container">
 
                 <div className="user-salute-container">
