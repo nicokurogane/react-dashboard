@@ -1,0 +1,22 @@
+.graphic-card-container{
+    background-color: #ffffff;
+}
+
+.graphic-card-info-container{
+    border-top: 1px solid #eeeeee;
+}
+
+.graphic-card-header{
+    padding: 2.5vh;
+}
+
+.radar-chart{
+    margin: 0 2.5vw;
+}
+
+.chart-scores-container{
+    padding: 1vw 0;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
