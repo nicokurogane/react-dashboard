@@ -1,7 +1,6 @@
 .counter-container{
 
     width:  15%;
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     justify-content: center;

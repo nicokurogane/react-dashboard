@@ -10,5 +10,43 @@ header{
     font-family: 'Roboto', sans-serif;
     background-color: #0b185e;
     color: #ffffff;
-    padding:  4vh 20vw; 
+    padding:  2vh 15vw; 
+}
+
+.main-container{
+    padding-top: 3vh;
+    padding-bottom:4vw; 
+    padding-left:15vw; 
+    display: flex;
+}
+
+.user-salute-container{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-img{
+    width: 5.02rem;
+    margin-right: 2vw;
+}
+
+.counters-container{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.user-salute-sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-salute{
+    font-weight: 600;
+}
+
+.user-background{
+    font-size: 0.8em;
 }
