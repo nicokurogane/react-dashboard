@@ -1,32 +1,45 @@
 button {
-	overflow: visible;
-	width: auto;
+  overflow: visible;
+  width: auto;
 }
 
-.projectlist-container{
-    background-color: #ffffff;
-
+.projectlist-container {
+  background-color: #ffffff;
 }
 
-.projectlist-header-container{
-    display: flex;
-	justify-content: space-between;
-	padding:  2.5vh;
+.projectlist-header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5vh;
 }
 
 button.link {
-	font-size: 1em;
-	text-align: left;
-	color: #00b8d4;
-	background: none;
-	margin: 0;
-	padding: 0;
-	border: none;
-	cursor: pointer;
+  font-size: 1em;
+  text-align: left;
+  color: #00b8d4;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 575px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: auto ;
+  }
 }
 
 
-.projects-container{
-	display:grid;
-	grid-template-columns: auto auto auto;
-}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	.projects-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	}
+  }

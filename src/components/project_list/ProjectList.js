@@ -14,6 +14,9 @@ const ProyectList = () => {
                 <ProjectCard/>
                 <ProjectCard/>
                 <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
 
             </div>
         </div>

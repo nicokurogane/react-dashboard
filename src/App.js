@@ -18,7 +18,7 @@ function App() {
           <FeedbackList/>
         </div>
         <div className="right-panel">
-          < GraphicCard/>
+          <GraphicCard/>
           <TeamList />
         </div>
       </div>
