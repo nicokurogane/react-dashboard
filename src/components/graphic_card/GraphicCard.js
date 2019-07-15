@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from '../counter/Counter';
+import ChartLegend from '../chart_legend/ChartLegend';
 
 import './graphiccard.css';
 
@@ -16,9 +16,9 @@ const GraphinCard = () => {
             <div className="graphic-card-info-container">
                 <img src={radarChart} alt="radar chart" className="radar-chart"/>
                 <div className="chart-scores-container">
-                <Counter props={{ title: "personal", number: "34" }} />
-                <Counter props={{ title: "team", number: "22" }} />
-                <Counter props={{ title: "department", number: "23" }} />
+                <ChartLegend props={{ title: "personal", number: "34", color: "#4263f5" }} />
+                <ChartLegend props={{ title: "team", number: "22", color: "#b0240e"  }} />
+                <ChartLegend props={{ title: "department", number: "23", color: "#d6c90d"  }} />
                 </div>
             </div>
         </div>
