@@ -19,7 +19,13 @@
 
 .chart-scores-container{
     padding: 1vw 0;
-   /* margin-top: 3vh;*/
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.vbar-legend {
+    width: 2px;
+    height: 5.5vh;
+    background-color: #eeeeee;
+    margin:0 1.5vw;
 }

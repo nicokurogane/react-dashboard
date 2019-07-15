@@ -1,77 +1,79 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+
+
+body {
+  margin: 0;
 }
 
-body{
-    margin: 0;
+header {
+  background-color: #0f0b33;
+  color: #ffffff;
+  padding: 2vh 13vw;
 }
 
-header{
-
-    background-color: #0f0b33;
-    color: #ffffff;
-    padding:  2vh 13vw; 
+.header-container {
+  background-color: #ffffff;
 }
 
-.header-container{
-    background-color: #ffffff;
+.main-container {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.main-container{
-    padding-top: 2vh;
-    padding-bottom:2vh; 
-    padding-left:13vw;
-    padding-right:13vw;   
-    display: flex;
-    flex-wrap: wrap;
+.breadcumb-container {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 13vw;
+  font-size: 0.8rem;
+  color: #9c9da1;
 }
 
-.breadcumb-container{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left:13vw; 
-    font-size: 0.8rem;
-    color:#9c9da1;
+.user-salute-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.user-salute-container{
-    display: flex;
+.profile-img {
+  width: 4rem;
+  margin-right: 2vw;
+}
+
+.counters-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.vbar {
+    width: 2px;
+    height: 60%;
+    background-color: #eeeeee;
+    margin-left: 2vw;
+    align-self: center;
+  }
+
+.user-salute-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-salute {
+  font-weight: 500;
+}
+
+.user-background {
+  font-size: 0.8em;
+  color: #9c9da1;
+}
+
+@media screen and (max-width: 991px) {
+  .counters-container {
+    margin-top: 6vh;
     justify-content: space-between;
-}
-
-.profile-img{
-    width: 4rem;
-    margin-right: 2vw;
-}
-
-.counters-container{
-    display: flex;
-    justify-content: flex-end;
     flex-grow: 1;
-
-}
-
-.user-salute-sub-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.main-salute{
-    font-weight: 600;
-}
-
-.user-background{
-    font-size: 0.8em;
-    color:#9c9da1;
-}
-
-
-@media screen and (max-width: 991px){
-    .counters-container{
-        margin-top: 6vh;
-        justify-content:space-between;
-        flex-grow: 1;
-    }
+  }
 }
