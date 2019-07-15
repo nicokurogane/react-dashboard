@@ -1,5 +1,6 @@
 .graphic-card-container{
     background-color: #ffffff;
+ 
 }
 
 .graphic-card-info-container{
@@ -12,7 +13,8 @@
 
 .radar-chart{
     width: 14.5vw;
-    margin:  2.5vw;
+
+    margin: 4vh 4.5vw;
 }
 
 .chart-scores-container{

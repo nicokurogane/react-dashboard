@@ -11,7 +11,7 @@ header{
 
     background-color: #0f0b33;
     color: #ffffff;
-    padding:  2vh 15vw; 
+    padding:  2vh 13vw; 
 }
 
 .header-container{
@@ -21,7 +21,7 @@ header{
 .main-container{
     padding-top: 2vh;
     padding-bottom:2vh; 
-    padding-left:15vw;
+    padding-left:13vw;
     padding-right:13vw;   
     display: flex;
     flex-wrap: wrap;
@@ -30,7 +30,7 @@ header{
 .breadcumb-container{
     padding-top: 2vh;
     padding-bottom: 2vh;
-    padding-left:15vw; 
+    padding-left:13vw; 
     font-size: 0.8rem;
     color:#9c9da1;
 }
