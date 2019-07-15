@@ -21,8 +21,10 @@ header{
 .main-container{
     padding-top: 2vh;
     padding-bottom:2vh; 
-    padding-left:15vw; 
+    padding-left:15vw;
+    padding-right:13vw;   
     display: flex;
+    flex-wrap: wrap;
 }
 
 .breadcumb-container{
@@ -45,8 +47,9 @@ header{
 
 .counters-container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-grow: 1;
+
 }
 
 .user-salute-sub-container{
@@ -62,4 +65,13 @@ header{
 .user-background{
     font-size: 0.8em;
     color:#9c9da1;
+}
+
+
+@media screen and (max-width: 991px){
+    .counters-container{
+        margin-top: 6vh;
+        justify-content:space-between;
+        flex-grow: 1;
+    }
 }

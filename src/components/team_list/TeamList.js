@@ -9,9 +9,11 @@ const TeamList = () => {
             <div className="team-list-header">
                 <span>team</span>
             </div>
-            <div className="team-cards-container">
+            <div className="teams-container">
                 <TeamCard/>
-               
+                <TeamCard/>
+                <TeamCard/>
+                <TeamCard/>               
             </div>
         </div>
     );
