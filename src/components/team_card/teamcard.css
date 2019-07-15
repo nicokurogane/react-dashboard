@@ -10,3 +10,12 @@
     width: 3vh;
     margin-right: .7vw;
 }
+
+/*TODO: AQUI VAMOS A MODIFICAR CUANDO QUIERAS HACER LO DEL TEXTO CON ELLIPSES*/
+.display-name{
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width: 5vw;
+    display:inline-block;
+}
