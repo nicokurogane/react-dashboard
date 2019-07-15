@@ -7,8 +7,9 @@
 }
 
 .team-logo{
-    width: 3vh;
+    width: 3.2vh;
     margin-right: .7vw;
+    border-radius: 50%; 
 }
 
 /*TODO: AQUI VAMOS A MODIFICAR CUANDO QUIERAS HACER LO DEL TEXTO CON ELLIPSES*/
