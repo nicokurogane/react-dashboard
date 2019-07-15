@@ -1,11 +1,18 @@
 .projectcard-container{
-    padding: 2vh;
+    padding: 3vh;
     border: 1px solid #eeeeee;
+}
+
+.project-name{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.5vh;
 }
 
 .project-description{
     color:#bdbdbd;
     font-size: 0.8em;
+    margin-bottom: 1vh;
 }
 
 
