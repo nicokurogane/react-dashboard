@@ -9,7 +9,7 @@ const FeedbackList = () => {
             <div className="feedback-header-container">
                 <span>Lastest Events</span>
             </div>
-            <div className="projects-container">
+            <div className="feedback-cards-container">
                 <FeedbackCard />
                 <FeedbackCard />
                 <FeedbackCard />
