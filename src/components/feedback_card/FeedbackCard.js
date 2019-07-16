@@ -1,17 +1,31 @@
-import React from 'react';
-import './feedbackcard.css';
+import React from "react";
+import "./feedbackcard.css";
 
-const FeedbackCard = () => {
-    return ( 
-        <div className="feedback-container">
-            <img src ="https://vignette1.wikia.nocookie.net/sote-rp/images/c/c4/User-placeholder.png/revision/latest?cb=20150624004222" 
-            className="feedback-profile_img" alt="profile"></img>
-            <div className="feedback-info-container">
-                <span className="feedback-info">stars of the week in high force grid-day mission, the design of new projects iteration june</span>
-                <span className="feedback-status-time">2 days ago</span>
-            </div>
+const FeedbackCard = ({ event }) => {
+  const {
+    image,
+    normalText1,
+    normalText2,
+    specialSpan1,
+    specialSpan2,
+    dayFromStatus
+  } = event;
+
+  return (
+    <div className="feedback-container">
+      <img src={image} className="feedback-profile_img" alt="profile" />
+      <div className="feedback-info-container">
+        <div>
+          <p className="feedback-info">
+          {normalText1}
+           <span className="feedback-info-special">{specialSpan1}</span> {normalText2}
+           <span className="feedback-info-special">{specialSpan2}</span>
+          </p>
         </div>
-     );
-}
- 
+        <span className="feedback-status-time">{dayFromStatus}</span>
+      </div>
+    </div>
+  );
+};
+
 export default FeedbackCard;
