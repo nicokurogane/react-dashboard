@@ -27,3 +27,10 @@
   background-color: #eeeeee;
   margin: 0 1.5vw;
 }
+
+@media screen and (max-width: 786px) {
+  .radar-chart {
+    width: 60vw;
+    margin: 4vh 4.5vw;
+  }
+}

@@ -18,7 +18,7 @@ function App() {
       "of new projects",
       "high force grid day mission, the design",
       "",
-      "2 days ago"
+      "2 hours ago"
     ),
     new Event(
       1,
@@ -36,7 +36,7 @@ function App() {
       "of new projects",
       "high force grid day mission, the design",
       "interation June",
-      "2 days ago"
+      "2 weeks ago"
     ),
     new Event(
       3,
@@ -45,7 +45,7 @@ function App() {
       "of new projects",
       "high force grid day mission, the design",
       "interation June",
-      "2 days ago"
+      "6 weeks ago"
     ),
     new Event(
       4,
@@ -54,7 +54,7 @@ function App() {
       "of new projects",
       "high force grid day mission, the design",
       "interation June",
-      "2 days ago"
+      "6 months ago"
     ),
     new Event(
       5,
@@ -62,8 +62,8 @@ function App() {
       "in",
       "of new projects",
       "high force grid day mission, the design",
-      "interation June",
-      "2 days ago"
+      "",
+      "a year ago"
     )
   ];
 

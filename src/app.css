@@ -23,3 +23,20 @@ body{
     margin-right: 13vw;
     margin-left: 3vh;
 }
+
+
+@media screen and (max-width: 786px){
+    .dashboard-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-panel{
+        margin-left: 3vw;
+    }
+    .right-panel{
+        margin-right: 0;
+        align-self: stretch;
+    }
+}
