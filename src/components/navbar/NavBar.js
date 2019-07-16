@@ -27,20 +27,24 @@ const NavBar = () => {
             </div>
           </div>
           <div className="counters-container">
-            <Counter
-              className="counter-component"
-              props={{ title: "Number of items", number: "56" }}
-            />
+            <Counter className="counter-component" title="Number of items">
+              <div className="counter-sub-element">
+                <span className="counter-number">56</span>
+              </div>
+            </Counter>
             <div className="vbar" />
-            <Counter
-              className="counter-component"
-              props={{ title: "Teams ranking", number: "8" }}
-            />
+            <Counter className="counter-component" title="Team ranking">
+              <div className="counter-sub-element">
+                <span className="counter-number">8</span>
+                <span className="counter-sub-number">/24</span>
+              </div>
+            </Counter>
             <div className="vbar" />
-            <Counter
-              className="counter-component"
-              props={{ title: "Project visits", number: "2,223" }}
-            />
+            <Counter className="counter-component" title="Project visit">
+              <div className="counter-sub-element">
+                <span className="counter-number">2,223</span>
+              </div>
+            </Counter>
           </div>
         </div>
       </div>

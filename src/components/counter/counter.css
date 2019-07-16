@@ -12,9 +12,16 @@
     align-self: flex-end;
 }
 
-.counter-number{
+.counter-sub-element{
     margin-top: 1.5vh;
-    font-size: 1.3em;
     align-self: flex-end;
 }
 
+.counter-number{
+    font-size: 1.3em;
+}
+
+.counter-sub-number{
+    font-size: 1em;
+    color:#9c9da1;
+}

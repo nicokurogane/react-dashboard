@@ -1,12 +1,11 @@
 import React from "react";
 import "./counter.css"
 
-const Counter = ({props}) => {
-    const {title, number} = props;
+const Counter = (props) => {
     return ( 
         <div className="counter-container">
-            <span className="counter-title">{title}</span>
-            <span className="counter-number">{number}</span>
+            <span className="counter-title">{props.title}</span>
+            {props.children}
         </div>
      );
 }
