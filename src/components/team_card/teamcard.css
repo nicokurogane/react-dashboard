@@ -12,7 +12,6 @@
     border-radius: 50%; 
 }
 
-/*TODO: AQUI VAMOS A MODIFICAR CUANDO QUIERAS HACER LO DEL TEXTO CON ELLIPSES*/
 .display-name{
     overflow: hidden;
     white-space:nowrap;

@@ -8,7 +8,7 @@ const FeedbackCard = () => {
             className="feedback-profile_img" alt="profile"></img>
             <div className="feedback-info-container">
                 <span className="feedback-info">stars of the week in high force grid-day mission, the design of new projects iteration june</span>
-                <span className="feedback-status-time">2days ago</span>
+                <span className="feedback-status-time">2 days ago</span>
             </div>
         </div>
      );

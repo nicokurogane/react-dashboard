@@ -1,15 +1,14 @@
 .feedback-container{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 2vh;
+    justify-content: flex-start;
+    padding: 3vh;
     border-top: 1px solid #eeeeee; 
 }
 
 .feedback-profile_img{
-    width: 3rem;
-    margin-right: 2vw;
-    margin-left: 1vh;
+    width: 2.5rem;
+    margin-right: 1vw;
 }
 
 
@@ -26,4 +25,5 @@
 .feedback-status-time{
     font-size: 0.8em;
     color: #bdbdbd;
+     padding-top: 1.5vh;
 }
