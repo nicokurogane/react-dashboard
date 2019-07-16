@@ -16,6 +16,6 @@
     overflow: hidden;
     white-space:nowrap;
     text-overflow:ellipsis;
-    width: 5vw;
+    width: 100px;
     display:inline-block;
 }
