@@ -18,7 +18,6 @@ const TeamList = () => {
                 <TeamCard teamInfo={team}/>
                 <TeamCard teamInfo={team}/>
                 <TeamCard teamInfo={team}/>
-              
             </div>
         </div>
     );

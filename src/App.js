@@ -17,7 +17,7 @@ function App() {
     new Event(
       0,
       "https://vignette1.wikia.nocookie.net/sote-rp/images/c/c4/User-placeholder.png/revision/latest?cb=20150624004222",
-      "in",
+      "a Discontent user will be",
       "of new projects",
       "high force grid day mission, the design",
       "",
@@ -25,8 +25,8 @@ function App() {
     ),
     new Event(
       1,
-      "https://vignette1.wikia.nocookie.net/sote-rp/images/c/c4/User-placeholder.png/revision/latest?cb=20150624004222",
-      "in",
+      "https://www.nunuoropesa.com/wp-content/uploads/2018/03/profile-img-1.jpg",
+      "Eva in",
       "of new projects",
       "high force grid day mission, the design",
       "interation June",
@@ -81,8 +81,8 @@ function App() {
     ),
     new Project(
       2,
-      team_logo,
-      "bootstrap",
+      "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png",
+      "React",
       "Hope is a good thing, maybe the best, good things will not die",
       "the whole group",
       "2 years ago"
