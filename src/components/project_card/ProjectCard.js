@@ -1,23 +1,24 @@
 import React from "react";
-
-import TeamCard from '../team_card/TeamCard';
+import TeamCard from "../team_card/TeamCard";
 
 import "./projectcard.css";
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
+
+  const { image, team, projectDescription, postedBy, timeStatus } = project;
+  console.log( project);
+
   return (
     <div className="projectcard-container">
       <div className="project-name">
-        <TeamCard />
+        <TeamCard teamInfo={{ name: team, icon: image }} />
       </div>
-      <div  className="project-description">
-        <span>
-          its a inner thing they can't reach and can't reach
-        </span>
+      <div className="project-description">
+        <span>{projectDescription}</span>
       </div>
       <div className="project-status-container">
-        <span className="project-subject">Science moving bricks</span>
-        <span className="project-time-status">2 days ago</span>
+        <span className="project-subject">{postedBy}</span>
+        <span className="project-time-status">{timeStatus}</span>
       </div>
     </div>
   );

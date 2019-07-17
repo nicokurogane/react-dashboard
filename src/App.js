@@ -5,7 +5,10 @@ import FeedbackList from "./components/feedback_list/FeedbackList";
 import GraphicCard from "./components/graphic_card/GraphicCard";
 import TeamList from "./components/team_list/TeamList";
 
+import team_logo from "./image/Boostrap_logo.svg";
+
 import Event from "./model/event";
+import Project from "./model/project";
 
 import "./app.css";
 
@@ -67,12 +70,63 @@ function App() {
     )
   ];
 
+  const ongoingProjects = [
+    new Project(
+      0,
+      team_logo,
+      "bootstrap",
+      "Hope is a good thing, maybe the best, good things will not die",
+      "the whole group",
+      "2 years ago"
+    ),
+    new Project(
+      2,
+      team_logo,
+      "bootstrap",
+      "Hope is a good thing, maybe the best, good things will not die",
+      "the whole group",
+      "2 years ago"
+    ),
+    new Project(
+      3,
+      team_logo,
+      "bootstrap",
+      "Hope is a good thing, maybe the best, good things will not die",
+      "the whole group",
+      "2 years ago"
+    ),
+    new Project(
+      4,
+      team_logo,
+      "bootstrap",
+      "Hope is a good thing, maybe the best, good things will not die",
+      "the whole group",
+      "2 years ago"
+    ),
+    new Project(
+      5,
+      team_logo,
+      "bootstrap",
+      "Hope is a good thing, maybe the best, good things will not die",
+      "the whole group",
+      "2 years ago"
+    ),
+    new Project(
+      6,
+      team_logo,
+      "bootstrap",
+      "Hope is a good thing, maybe the best, good things will not die",
+      "the whole group",
+      "2 years ago"
+    )
+  ];
+
   return (
     <>
       <NavBar />
       <div className="dashboard-container">
         <div className="left-panel">
-          <ProjectList />
+          <ProjectList projectList={ongoingProjects} />
           <FeedbackList feedbackList={events} />
         </div>
         <div className="right-panel">
