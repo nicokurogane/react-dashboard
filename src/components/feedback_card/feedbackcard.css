@@ -1,9 +1,22 @@
+.separator{ 
+    margin-left: 3vh;
+    width: 93%;
+}
+
+.separator > hr{
+    border-top: 1px #eeeeee;
+    border-left: 1px #eeeeee;
+}
+
+.separator:last-child{
+    display: none;
+}
+
 .feedback-container{
     width: 100%;
     display: flex;
     justify-content: flex-start;
     padding: 3vh;
-    border-top: 1px solid #eeeeee; 
 }
 
 .feedback-profile_img{

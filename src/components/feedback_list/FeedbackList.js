@@ -11,7 +11,8 @@ const FeedbackList = ({ feedbackList }) => {
       </div>
       <div className="feedback-cards-container">
         {feedbackList.map(item => {
-          return <FeedbackCard event={item} key={item.id} />;
+          return <FeedbackCard event={item} key={item.id} />
+
         })}
       </div>
     </div>

@@ -12,6 +12,7 @@ const FeedbackCard = ({ event }) => {
   } = event;
 
   return (
+    <>
     <div className="feedback-container">
       <img src={image} className="feedback-profile_img" alt="profile" />
       <div className="feedback-info-container">
@@ -24,7 +25,12 @@ const FeedbackCard = ({ event }) => {
         </div>
         <span className="feedback-status-time">{dayFromStatus}</span>
       </div>
+    </div> 
+    <div className="separator">
+    <hr/>
     </div>
+    
+    </>
   );
 };
 
