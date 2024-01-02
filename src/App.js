@@ -5,7 +5,7 @@ import FeedbackList from "./components/feedback_list/FeedbackList";
 import GraphicCard from "./components/graphic_card/GraphicCard";
 import TeamList from "./components/team_list/TeamList";
 
-import team_logo from "./image/Boostrap_logo.svg";
+import team_logo from "./image/Applaudo_logo.png";
 
 import Event from "./model/event";
 import Project from "./model/project";
